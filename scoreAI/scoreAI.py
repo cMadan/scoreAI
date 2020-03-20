@@ -135,6 +135,8 @@ def getER():
 ## SECTION 5: Process the data
 # cycle through each doc in input folder
 for doc in docs:
+    print('Processing '+doc)
+
     # load document
     d = Document(join(pathIn,doc))
 
@@ -152,7 +154,7 @@ for doc in docs:
     # get the Participant ID
     cover = d.tables[0].rows[0].cells[0].text
     cover = cover.split('\n')
-    subID = cover[1].replace('Participant ID: ','')
+    subID = cover[1].replace('Participant ID: ','').strip()
 
     # get episodic richness values
     ERlist = getER()
@@ -164,6 +166,7 @@ for doc in docs:
         # find para number for Memory M
         para = seekPara(para,'Memory '+str(M))
         paraM.append(para)
+        print(str(M)+'...', end = '')
     if len(paraM) != nMemories:
         warn('WARNING: In %s, Number of memories found does not match number of memories expected. %g memories found, expected %g.' % (doc,len(paraM),nMemories))
 
@@ -197,7 +200,7 @@ for doc in docs:
         data_all = { key:data_all.get(key,[])+data_sub.get(key,[]) for key in data_all.keys() }
     except NameError:
         data_all = data_sub
-
+	print('done.')
 
 ###############################################################
 ## SECTION 6: Output the counts
