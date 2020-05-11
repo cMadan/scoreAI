@@ -8,7 +8,7 @@ The code has been written by Christopher Madan, with consultation of the other a
 
 A set of three example transcribed and scored memories are provided to demonstrate how a memory document should be formatted. These memories are from one of the researchers, not a study participant. We do not share narratives from participants for privacy reasons. We also demonstrate that text can be visually ‘redacted’ by highlighting it in black; this is also shown in the example, but note that the original text is still maintained (as in the redacted dates in the example). A blank template of the format used here, and required by the Python code, is also provided.
 
-Current public version: build 9 [20200207]
+Current public version: build 10 [2020511]
 
 ## Installation Instructions
 

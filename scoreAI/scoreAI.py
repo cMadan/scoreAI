@@ -6,7 +6,7 @@
 ##  Python script for processing transcribed and scored      ##
 ##  autobiographical memory narratives.                      ##
 ##                                                           ##
-##  Current public version: build 9 [20200207]               ##
+##  Current public version: build 10[20200511]               ##
 ##                                                           ##
 ##                                                           ##
 ##  If you use this software, please cite:                   ##
@@ -63,7 +63,9 @@ def seekPara(para,string):
         para += 1
         try:
             # strip removes trailing spaces
-            text = d.paragraphs[para].runs[0].text.strip()
+            #text = d.paragraphs[para].runs[0].text.strip()
+            # above approach is too brittle to idiosyncrasies of Word XML formatting
+            text = getPara(para).strip()
             # check if line matches specific search string
             compare = text == string
             if compare:
@@ -200,7 +202,7 @@ for doc in docs:
         data_all = { key:data_all.get(key,[])+data_sub.get(key,[]) for key in data_all.keys() }
     except NameError:
         data_all = data_sub
-	print('done.')
+    print('done.')
 
 ###############################################################
 ## SECTION 6: Output the counts
