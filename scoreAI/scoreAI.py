@@ -6,13 +6,14 @@
 ##  Python script for processing transcribed and scored      ##
 ##  autobiographical memory narratives.                      ##
 ##                                                           ##
-##  Current public version: build 10[20200511]               ##
+##  Current public version: build 10 [20200511]              ##
 ##                                                           ##
 ##                                                           ##
 ##  If you use this software, please cite:                   ##
 ##  * Wardell, V., Esposito, C. L., Madan, C. R., & Palombo, ##
-##      D. J. (preprint). Semi-automated transcription and   ##
+##      D. J. (in press). Semi-automated transcription and   ##
 ##      scoring of autobiographical memory narratives.       ##
+##      Behavior Research Methods.                           ##
 ##                                                           ##
 ##  For documentation and further information, see:          ##
 ##     https://github.com/cMadan/scoreAI                     ##
