@@ -11,9 +11,9 @@
 ##                                                           ##
 ##  If you use this software, please cite:                   ##
 ##  * Wardell, V., Esposito, C. L., Madan, C. R., & Palombo, ##
-##      D. J. (in press). Semi-automated transcription and   ##
+##      D. J. (2021). Semi-automated transcription and       ##
 ##      scoring of autobiographical memory narratives.       ##
-##      Behavior Research Methods.                           ##
+##      Behavior Research Methods, 53, 507-517.              ##
 ##                                                           ##
 ##  For documentation and further information, see:          ##
 ##     https://github.com/cMadan/scoreAI                     ##

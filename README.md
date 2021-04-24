@@ -2,7 +2,7 @@
 
 The code provided here is serves as supplementary material to the paper:
 
-* Wardell, V., Esposito, C. L., Madan, C. R., & Palombo, D. J. (in press). Semi-automated transcription and scoring of autobiographical memory narratives. *Behavior Research Methods*. doi:10.3758/s13428-020-01437-w
+* Wardell, V., Esposito, C. L., Madan, C. R., & Palombo, D. J. (2021). Semi-automated transcription and scoring of autobiographical memory narratives. *Behavior Research Methods, 53*, 507-517. doi:10.3758/s13428-020-01437-w
 
 The code has been written by Christopher Madan, with consultation of the other authors.
 
